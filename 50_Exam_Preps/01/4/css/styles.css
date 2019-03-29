@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+@import url('navigation.css');
+@import url('footer.css');
+
+html {
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    overflow: auto;
+}
+
+.intro {
+    background: url('../img/residential-banner-2.jpg');
+    background-size: cover;
+    background-position-x: 50%;
+    color: aliceblue;
+    text-align: center;
+}
+
+.intro h1 {
+    margin: 0 auto;
+    font-size: 46px;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
+.intro > h1:nth-child(1) {
+    margin-top: 3rem;
+}
+
+.intro > p:last-child {
+    margin-bottom: 4rem;
+}
+
+body > main > section.how-it-works > div {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.how-it-works > .container, h4 {
+    margin: 0 15%;
+    text-align: center;
+}
+
+.how-it-works > h4 {
+    margin: 1.2rem 0;
+    font-size: 20px;
+    font-family: 'Times New Roman', 'Times', serif;
+    letter-spacing: 2px;
+}
+
+.works-content {
+    width: 33.3%;
+    padding: 0 2rem;
+    color: rgb(105, 105, 105);
+}
+
+.how-it-works h3 {
+    font-size: 32px;
+    margin: 0;
+    padding-bottom: 0.5rem;
+}
+
+.how-it-works h3 > span:before,  .how-it-works h3 > span:after{
+    direction: ltr;
+    display: inline-block;
+    content: '';
+    width: 1.5rem;
+    height: 0.1rem;
+    background: rgb(209, 209, 209);;
+} 
+
+.how-it-works .works-content h3 > span:before {
+    margin-right: 1rem;
+    margin-bottom: 0.7rem;
+}
+
+.how-it-works .works-content h3 > span:after {
+    margin-left: 1rem;
+    margin-bottom: 0.7rem;
+}
+
+.how-it-works h4 {
+    font-size: 26px;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.how-it-works p {
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+}
+
+.pictures {
+    display: flex;
+    background-color: rgb(231, 231, 231);
+    justify-content: center;
+}
+
+.pictures > ul {
+    padding: 0;
+    margin: 3.5rem 15%;
+}
+
+.pictures > ul > li > img {
+    width: 28%;
+}
+
+.site-footer {
+    color: rgb(172, 172, 172);;
+    background-color: black;
+    padding: 1rem 14%;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.footer-wrapper {
+    display: flex;
+}
+
+.sitemap{
+    display: flex;
+}
+
+.sitemap > ul {
+    padding: 0;
+    padding-right: 1rem;
+}
+
+.sitemap li {
+    list-style: none outside;
+    padding: 0.1rem;
+}
+
+.sitemap li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: rgba(172, 172, 172, 0.7);;
+}
+
+.footer {
+    display: inline;
+}

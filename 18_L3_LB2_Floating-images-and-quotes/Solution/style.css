@@ -1,0 +1,54 @@
+body {
+    padding: 5em;
+    background: rgb(238, 238, 238);
+}
+
+.page {
+	max-width: 60rem;
+	margin: 0 auto;
+}
+
+.page > header:first-of-type {
+    border-bottom: 2px solid #000;
+}
+
+header .site-title {
+    display: inline-block;
+    min-width: 20vw;
+    font-weight: bold;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+img[class^="align-"] {
+	padding: 0.5rem;
+	background: #FFF;
+	border: 3px solid #222;
+	box-shadow: 0 0 5rem 0.1rem rgba(0,0,0,0.25);
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Georgia", sans-serif;
+    font-size: 1em;
+    line-height: 1.2
+}
+
+.align-right {
+    float: right;
+    margin: 0 0 1rem 1.5rem;
+}
+
+.align-left {
+    float: left;
+    margin: 0 1.5rem 1rem 0;
+}
+
+blockquote {
+    width: 40%;
+    min-width: 15rem;
+    float: right;
+    color: #444;
+    font-family: "Georgia", serif;
+    padding-top: 0;
+    border-left: 2px solid silver 
+}

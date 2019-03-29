@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: linear-gradient(rgba(132, 106, 221, 0.8), 
+    rgba(132, 106, 221, 0.8)), url('../images/bg-01.jpg');
+}
+
+main {
+    display: flex;
+    width: 60%;
+    border-radius: 20px;
+    background: white;
+    margin: 70px auto;
+    padding: 70px 10px;
+}
+
+main > section {
+    width: 50%;
+}
+
+.img-container {
+    text-align: center;
+}
+
+.img-container img {
+    width: 60%;
+    padding: 70px 0;
+}
+
+.form-container {
+    margin-left: 50px;
+}
+
+.form-container legend h3 {
+    font-weight: bold;
+}
+
+.form-container .field input{
+    border-radius: 50px;
+    width: 250px;
+    border: none;
+    padding: 5px 25px;
+    background: #E6E6E6;
+    color: rgb(170, 170, 170);
+    font-weight: bold;
+}
+
+.form-container textarea {
+    border-radius: 20px;
+    width: 250px;
+    border: none;
+    padding: 5px 20px;
+    background: #E6E6E6;
+    color: rgb(170, 170, 170);
+}
+
+.form-container > input.button {
+    border-radius: 20px;
+    border: none;
+    padding: 5px 20px;
+    background: rgb(132, 106, 221);
+    color: white;
+    width: 290px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.fas {
+    position: relative;
+    right: 295px; 
+    color: grey;  
+}
+
+.form-container .field input:focus + .fas{
+    color: rgb(132, 106, 221);
+}

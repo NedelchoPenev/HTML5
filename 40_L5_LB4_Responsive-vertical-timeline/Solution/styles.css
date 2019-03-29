@@ -1,0 +1,9 @@
+@import url("reset.css");
+@import url("typography.css");
+@import url("../../39_L5_LB3_Responsive-forms/Solution/buttons.css");
+@import url("timeline.css");
+
+body {
+	background: #FFF;
+	padding: 2rem 2rem;
+}

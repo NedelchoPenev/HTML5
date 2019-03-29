@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+	font-family: 'Poppins', sans-serif;
+	background: linear-gradient(
+		to right,
+		rgba(158, 102, 90, 1),
+		rgba(241, 222, 189, 1)
+	);
+}
+
+main {
+	display: flex;
+	background-color: white;
+	justify-content: center;
+	margin: 3rem auto;
+	width: 50%;
+	padding: 3rem 5rem;
+	border-radius: 20px;
+	box-shadow: 0 0 20px 10px rgb(158, 102, 90);
+}
+
+section {
+	width: 50%;
+}
+
+.picture div img {
+	max-width: 100%;
+}
+
+.form {
+	text-align: center;
+}
+
+.form > legend > h2 {
+	font-weight: normal;
+	padding-bottom: 1rem;
+}
+
+.input {
+	border-radius: 50px;
+	padding: 10px 30px;
+	background: #e6e6e6;
+}
+
+.input > input {
+	border: none;
+	background: #e6e6e6;
+	margin: 10px;
+	color: rgb(170, 170, 170);
+}
+
+.form > form > p > span > i {
+	color: gray;
+}
+
+.button > input[type='button'] {
+	background-color: rgb(158, 102, 90);
+	border-radius: 50px;
+	border: none;
+	color: white;
+	padding: 14px 48px;
+	margin-top: 1.5rem;
+	font-weight: bold;
+}
+
+.button > input[type='button']:hover {
+	background-color: #5e4736;
+	cursor: pointer;
+}
+
+.button,
+.account,
+.button a,
+.account a {
+	color: gray;
+}
+
+.account {
+	margin-top: 2rem;
+	display: inline-block;
+}
+
+.checkbox {
+		display: inline-block;
+		text-align: left;
+		margin-right: 4.5rem;
+}
+
+.container {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	color: grey;
+	margin-left: 1rem;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background-color: #aaaaaa;
+	border-radius: 50%;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+	content: '';
+	position: absolute;
+	display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+	background-color: #9e665a;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+	display: block;
+	top: 5px;
+	left: 5px;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: white;
+}

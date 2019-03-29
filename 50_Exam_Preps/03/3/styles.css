@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #E9E9E9; 
+}
+
+main {
+    margin: 7rem 19rem;
+    background: white;
+    display: flex;
+    box-shadow: 5px 5px 5px 0px rgba(196,192,196,1);
+}
+
+.left {
+    background: linear-gradient(rgba(31, 33, 36, 0.9), 
+    rgba(31, 33, 36, 0.8)), url('images/cover.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    width: 50%;
+}
+
+.left > h4 {
+    display: flex;
+    font-weight: bold;
+    padding: 1rem 3rem;
+}
+
+.left > h1 {
+    margin-top: 8rem;
+    font-size: 24pt;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+
+.left > p {
+    font-size: 19pt;
+    margin-top: 0;
+}
+
+.left > i {
+    margin-top: 10rem;
+    padding-right: 0.5rem;
+}
+
+.right {
+    color: gray;
+    width: 50%;
+}
+
+.right form {
+    padding: 2rem 0 0 2rem;
+}
+
+label, input {
+    display: block;
+}
+
+label {
+    font-size: 11pt;
+    padding: 1rem 0 0.5rem 0;
+    color: rgb(163, 163, 163);
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid rgb(163, 163, 163);
+    padding: 0.5rem 8rem 0.8rem 0.8rem;
+    font-size: 14pt;
+}
+
+button {
+    color: white;
+    font-weight: bold;
+    font-size: 13pt;
+    padding: 0.8rem 3rem;
+    border-radius: 30px;
+    background-color: rgb(17, 17, 17);
+    border: none;
+    margin: 3rem 1rem;
+}
+
+.right > form > div:nth-child(5) > a {
+    color: rgb(163, 163, 163);
+}

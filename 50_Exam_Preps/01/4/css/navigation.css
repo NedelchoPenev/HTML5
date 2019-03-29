@@ -1,0 +1,45 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(231, 231, 231);
+    padding: 1rem 0;
+}
+
+.main-nav ul, .login-nav ul {
+    display: flex;
+    padding: 0.5rem 0;
+	border-radius: 0.3rem;
+	margin: 0;
+}
+
+.main-nav ul li, .login-nav ul li{
+    display: block;
+	list-style: none outside;
+	position: relative;
+}
+
+.main-nav ul li a, .login-nav ul li a{
+    display: block;
+	padding: 0.2rem 0.7rem;
+	text-decoration: none;
+	color: rgb(88, 88, 88);
+}
+
+.login-nav ul li a { 
+    border-right: 0.1rem solid rgb(199, 199, 199);
+    padding: 0 0.7rem;
+}
+
+body > main > section.naigation > div > nav.main-nav {
+    margin-left: 15%;
+}
+
+body > main > section.naigation > div > nav.login-nav {
+    margin-right: 15%;
+}
+
+.main-nav ul li a:hover, .login-nav ul li a:hover{
+    color: coral;
+}

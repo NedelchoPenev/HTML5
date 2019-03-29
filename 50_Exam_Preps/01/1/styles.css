@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    padding: 1rem 18rem;
+    background: #FFF;
+}
+
+.top-part {
+    display: flex;
+}
+
+.welcome-header {
+    width: 66%;
+}
+
+.welcome-header, .gallery-header {
+    border-left: 1.5px solid #444;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-left: 1.5rem;
+}
+
+.gallery, .welcome {
+    font-size: 2rem;
+    letter-spacing: 0.2em;
+    line-height: 99%;
+    margin: 0;
+}
+
+.bottom-part {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.bottom-part p {
+    width: 33.3%;
+}
+
+.bottom-part p:not(:first-child) {
+    padding-left: 1.5rem;
+}
+
+img {
+    width: 90%;
+    height: 100%;
+}
+

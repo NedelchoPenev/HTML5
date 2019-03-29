@@ -1,0 +1,237 @@
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0; 
+}
+
+section {
+    overflow: auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    display: flex;
+}
+
+.title > h3:nth-child(1) {
+    padding-left: 6rem;
+    margin-top: 1rem;
+    font-weight: normal;
+}
+
+.title > h3:nth-child(2) {
+    font-weight: normal;
+    margin-top: 1rem;
+    color: rgb(33, 162, 181);
+}
+
+nav {
+    display: inline-block;
+    margin-right: 8rem;
+} 
+
+nav ul li {
+    display: inline-block;
+    padding-right: 2rem;
+}
+
+nav ul li a{
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav > ul > li:nth-child(1) > a {
+    padding-bottom: 4px;
+    border-bottom: 2px solid #008CBA;
+}
+
+.get-started {
+    background: url('images/slide2.jpg') no-repeat;
+    background-size: cover;
+}
+
+.get-started > div {
+    width: 30%;
+    color: white;
+    background: rgba(0,0,0,0.5);
+    padding: 1rem;
+    margin: 12rem 10rem 10rem 10rem;
+}
+
+.get-started > div > p {
+    margin: 0;
+    font-size: 31pt;
+    padding-bottom: 0.3rem;
+}
+
+.get-started > div > button {
+    color: white;
+    background: rgb(0, 140, 186);
+    border-radius: 20px;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    font-size: 16pt;
+    margin-top: 0.5rem;
+}
+
+.welcome {
+    text-align: center;
+    padding: 2rem 6rem;
+}
+
+.welcome > h1 {
+    font-weight: normal;
+    font-size: 20pt;
+    margin: 0;
+}
+
+.line {
+    background: rgb(0, 140, 186);
+    height: 2px;
+    width: 6rem;
+    position: relative;
+    left: 46%;
+    margin: 0.5rem;
+}
+
+button {
+    color: white;
+    background: rgb(69, 69, 69);
+    border-radius: 20px;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.services {
+    text-align: center;
+    background-color: rgb(238, 240, 241);
+}
+
+.services > h1 {
+    margin: 0;
+    font-weight: 500;
+    padding-top: 2rem;
+}
+
+.services > .line {
+    background: black;
+    height: 2px;
+    margin-bottom: 2rem;
+}
+
+.services > div {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.services > div> div{
+    width: 30%;
+    background-color: white;
+}
+
+.services > div> div > img {
+    width: 100%;
+}
+
+.services > div > div > h3 {
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.services > div > div > p {
+    padding: 0 1rem;
+}
+
+.services button {
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    margin-bottom: 2rem;
+}
+
+.subscribe {
+    text-align: center;
+    background-color: rgb(57, 63, 67);
+    color: white;
+}
+
+.subscribe h1 {
+    font-weight: normal;
+    margin-bottom: 0;
+    font-size: 23pt;
+}
+
+.subscribe > .line {
+    background: white;
+}
+
+.subscribe > form > input {
+    margin-bottom: 4rem;
+    background: rgb(84, 90, 94);
+    border: none;
+    border-radius: 10px;
+    padding: 0.8rem 18rem 0.8rem 0.5rem;
+    font-style: italic;
+    font-size: 12pt;
+}
+
+.subscribe > form > button {
+    background: rgb(0, 140, 186);
+    border-radius: 10px;
+    font-size: 12pt;
+    padding: 0.8rem 2.5rem;
+}
+
+.foot {
+    background: rgb(47, 53, 57);
+    display: flex;
+    text-align: left;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.foot > div > h4 {
+    font-weight: normal;
+    font-size: 14pt;
+    margin-bottom: 0;
+}
+
+.foot ul {
+    padding: 0;
+}
+
+.foot ul li {
+    list-style-type: none;
+    padding-bottom: 0.5rem;
+}
+
+.foot ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.foot > div:nth-child(3) > p:nth-child(2) {
+    padding-bottom: 1rem;
+}
+
+.foot > div:nth-child(4) > i {
+    padding: 1rem 0.9rem 0 0;
+}
+
+footer {
+    display: flex;
+    background: rgb(38, 43, 47);
+    color: white;
+    justify-content: center;
+}
+
+footer > a {
+    padding: 1rem 0.3rem;
+}

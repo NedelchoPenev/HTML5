@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0; 
+}
+
+section {
+    overflow: auto;
+}
+
+nav {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 2rem;
+}
+
+nav ul li a{
+    color: #F05F40;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+body > section.love > h1 {
+    font-size: 25pt;
+}
+
+.love {
+    background: url('img/header.png') 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 5rem 25rem;
+    padding-top: 6rem;
+}
+
+.line {
+    background: #F05F40;
+    height: 3px;
+    width: 4rem;
+    position: relative;
+    left: 50%;
+}
+
+.love > p:nth-child(3), .find-your-monkey > p:nth-child(3) {
+    padding-top: 1rem;
+}
+
+.find-your-monkey {
+    background-color: #F05F40;
+    text-align: center;
+    padding: 3rem 25rem;
+    color: white;
+}
+
+.white {
+    background: white;
+}
+
+.find-your-monkey > button {
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    padding: 1rem 2rem;
+}
+
+element.style {
+    font-weight: normal;
+    font-size: 22pt;
+}
+
+.are-you-a-monkey {
+    text-align: center;
+    padding: 3rem 11rem;
+}
+
+.are-you-a-monkey article {
+    padding: 0 1rem;
+}
+
+.are-you-a-monkey > .container {
+    display: flex;
+    padding-top: 1rem;
+}
+
+.are-you-a-monkey > div > article > i {
+    color: #F05F40;
+}
+
+.monkies {
+    display: flex;
+    border-bottom: 3px solid #F05F40;
+    border-top: 3px solid #F05F40;
+}
+
+.monkies div {
+    width: 32%;
+    margin: 0 1rem;
+}
+
+.monkies div img{
+    width: 100%;
+    vertical-align: middle;
+    border-right: 3px solid #F05F40;
+    border-left: 3px solid #F05F40;
+}
+
+footer p {
+    text-align: center;
+    margin-bottom: 2rem; 
+}
+
+footer p a {
+    text-decoration: none;
+    color: #F05F40;
+}
