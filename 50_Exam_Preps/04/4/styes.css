@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|PT+Serif:400,400i,700,700i");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    font-size: 20pt;
+}
+
+li {
+    list-style: none outside;
+    font-size: 16pt;
+}
+
+h4 {
+    font-size: 30pt;
+}
+
+h5 {
+    font-size: 18pt;
+}
+
+body {
+    font-family: 'PT sans', sans-serif;
+}
+
+.header {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), 
+    url('image/computer-main.jpg') no-repeat center center;
+    background-size: cover;
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 70%;
+    align-items: center;
+    margin: 0 auto;
+    padding: 2rem 0;
+
+}
+
+.buy-now {
+    text-align: center;
+    color: white;
+
+}
+
+.buy-now > h1 {
+    font-size: 60pt;
+    padding: 1rem;
+
+}
+
+.buy-now > p {
+    width: 39%;
+    margin: 1rem auto;
+    
+}
+
+button {
+    margin: 3.5rem;
+    padding: 0.8rem 1.5rem;
+    font-size: 14pt;
+    font-weight: bold;
+    color: white;
+    background: #00D08E;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: transparent;
+    outline: 3px solid white;
+}
+
+.buy-now > a {
+    display: block;
+    padding-top: 2.5rem;
+    padding-bottom: 7rem;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.picture {
+    width: 100%;
+    height: auto;
+}
+
+.picture img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+
+.what {
+    padding: 2rem 4rem;
+}
+
+.what > ul > li {
+    padding-bottom: 1.5rem;
+}
+
+.what > ul > li > i {
+    color: #00D08E;
+    padding-right: 1.5rem;
+}
+
+.what > p {
+    padding-bottom: 3rem;
+}
+
+.for > h4 {
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.list-for {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 2rem 5rem;
+}
+
+.list-for > div {
+    width: 35%;
+    height: auto;
+    margin: 1rem auto;
+    text-align: center;
+    color: #00D08E;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.list-for img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.questions {
+    text-align: center;
+    background: #B2F1DD;
+    padding: 2.5rem;
+}
+
+.questions h4 {
+    padding-bottom: 2rem;
+}
+
+.questions p {
+    font-size: 12pt;
+}
+
+.questions ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    margin: 0 8rem 3rem 8rem;
+}
+
+.questions > p > a{
+    color: black;
+    font-weight: bold;
+}

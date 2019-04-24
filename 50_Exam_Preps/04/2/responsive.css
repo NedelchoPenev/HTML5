@@ -1,0 +1,46 @@
+@media all and (max-width: 1100px) {
+    .team-description > div > ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .blog-news > ul {
+        display: inline-block;
+    }
+
+    .blog-news ul .item  {
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+}
+
+@media all and (max-width: 800px) {
+    header > nav {
+        flex-direction: column;
+    }
+
+    header > nav > ul {
+        display: contents;
+    }
+
+    header > nav > ul > li {
+        padding: 0.2rem 0;
+    }
+
+    header > nav > ul > li:nth-child(1) {
+        padding-top: 1rem;
+    }
+
+    .header-title { 
+        padding: 0;
+    }
+
+    .choose-us {
+        padding: 2.5rem 10rem;
+    }
+
+    .choose-us ul {
+        flex-direction: column;
+    }
+}

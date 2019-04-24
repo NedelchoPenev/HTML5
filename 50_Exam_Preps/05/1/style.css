@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'PT Serif', serif;
+}
+
+main {
+    display: flex;
+    width: 50%;
+    margin: 4rem auto;
+    box-shadow: 0px 0px 24px 1px rgba(0,0,0,0.75);
+}
+
+.left {
+    width: 50%;
+    padding: 2rem;
+    background: url('image/image1.png') no-repeat;
+    background-size: cover;
+}
+
+.left h1 {
+    text-align: center;
+}
+
+.left .line {
+    outline: 1px dashed #4A8710;
+}
+
+.serves {
+    display: flex;
+    justify-content: space-between;
+}
+
+.serves > h3 {
+    font-weight: normal;
+    padding-bottom: 3rem;
+}
+
+article {
+    padding-bottom: 3rem;
+}
+
+.ingredients {
+    display: flex;
+}
+
+.ingredients > .grams {
+    color: #4A8710;
+    padding-right: 5px;
+    font-weight: bold;
+}
+
+p {
+    padding-bottom: 3rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 2px solid #4A8710;
+    text-align: center;
+    padding: 2px;
+}
+
+.right {
+    background: url('image/image.jpg') no-repeat center center;
+    background-size: cover;
+    width: 50%;
+}
+
+.right:after {
+    display: block;
+    content: '';
+    padding-top: 100%;
+}

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    display: flex;
+    width: 50%;
+    margin: 4rem auto;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.left {
+    background: url('image/image.png') no-repeat center center;
+    background-size: cover;
+    width: 50%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.left:after {
+    display: block;
+    content: '';
+    padding-top: 100%;
+}
+
+.right {
+    width: 50%;
+    background: #F6F7F8;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    padding: 1rem;
+}
+
+.unit-container {
+    display: flex;
+    justify-content: center;
+}
+
+.units {
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+.us {
+    background: #EFE562;
+}
+
+.metric {
+    background: #E0E0DF;
+    padding: 0.5rem 2.2rem;
+}
+
+.gender-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.input {
+	border-radius: 5px;
+    background: white;
+    color: rgb(88, 88, 88);
+    border: 1px solid rgb(156, 156, 156);
+}
+
+.input > input {
+	border: none;
+	background: white;
+    margin: 1px;
+    width: 80%;
+    color: rgb(97, 97, 97);
+    padding-left: 5px;
+}
+
+.input > i {
+    padding-right: 0.5rem;
+}
+
+p {
+    margin: 3px;
+}
+
+form > div:nth-child(2) > span > input[type="text"] {
+    width: 90%;
+}
+
+form > div {
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+
+.height-container {
+    display: flex;
+}
+
+body > main > section.right > form > div.container > div > span:nth-child(1) {
+    width: 40%;
+    margin-right: 1rem;
+}
+
+button {
+    width: 87%;
+    margin: 1.5rem 1rem;
+    color: white;
+    background: #05A2D3;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14pt;
+}
